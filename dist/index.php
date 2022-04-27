@@ -12,6 +12,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link href="css/main.min.css" rel="stylesheet">
   <title>Paton Redevelopment</title>
 </head>
@@ -385,17 +386,33 @@
           <p>Fill out the form or call us to set up a free in-home consultation.</p>
           <p><b>Service Areas:</b><br>
             Greater St. Louis Metropolitan Area</p>
-            <p><b>Address:</b><br>
-              8507 Drury Lane St. Louis, MO 63147</p>
-            <p><b>Phone:</b><br>
-              <a href="tel:+13143928305">(314) 392 - 8305</a></p>
+          <p><b>Address:</b><br>
+            8507 Drury Lane St. Louis, MO 63147</p>
+          <p><b>Phone:</b><br>
+            <a href="tel:+13143928305">(314) 392 - 8305</a></p>
+          <div class="mt-5">
+            <nav class="nav nav-social">
+              <a href="https://www.facebook.com/patonredevelopmentseries" class="nav-link me-3" title="Paton Redevelopment on Facebook" target="_blank" rel="nofollow noopener">
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                <span class="sr-only">Paton Redevelopment on Facebook</span>
+              </a>
+              <a href="https://www.instagram.com/patonredevelopmentseries/" class="nav-link me-3" title="Paton Redevelopment on Instagram" target="_blank" rel="nofollow noopener">
+                <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                <span class="sr-only">Paton Redevelopment on Instagram</span>
+              </a>
+              <a href="https://www.linkedin.com/company/" class="nav-link" title="Paton Redevelopment on LinkedIn" target="_blank" rel="nofollow noopener">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                <span class="sr-only">Paton Redevelopment on LinkedIn</span>
+              </a>
+            </nav>
+          </div>
         </div>
         <div class="col-lg-6">
           <?php include_once('inc/form-contact.php'); ?>
         </div>
       </div>
       <div class="text-center text-muted mb-5">
-        <small>&copy; 2021 Paton Redevelopment LLC</small>
+        <small>&copy; <?php echo date("Y"); ?> Paton Redevelopment LLC</small>
       </div>
     </div>
   </footer>

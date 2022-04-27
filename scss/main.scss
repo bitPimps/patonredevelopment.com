@@ -55,12 +55,23 @@ a.anchor {
 
 /* Footer */
 footer {
-  a {
+  color: $white;
+
+  a,
+  a.nav-link {
     color: $white;
     
     &:hover,
-    &:focus {
+    &:focus,
+    &.nav-link:hover,
+    &.nav-link:focus {
       color: $grey;
     }
+  }
+  .nav-link {
+    padding: 0rem;
+  }
+  .nav-social {
+    font-size: 2.5rem;
   }
 }
