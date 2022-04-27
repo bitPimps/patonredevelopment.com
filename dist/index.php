@@ -400,7 +400,7 @@
                 <i class="fab fa-instagram-square" aria-hidden="true"></i>
                 <span class="sr-only">Paton Redevelopment on Instagram</span>
               </a>
-              <a href="https://www.linkedin.com/company/" class="nav-link" title="Paton Redevelopment on LinkedIn" target="_blank" rel="nofollow noopener">
+              <a href="https://www.linkedin.com/company/paton-redevelopment-series-llc/" class="nav-link" title="Paton Redevelopment on LinkedIn" target="_blank" rel="nofollow noopener">
                 <i class="fab fa-linkedin" aria-hidden="true"></i>
                 <span class="sr-only">Paton Redevelopment on LinkedIn</span>
               </a>
